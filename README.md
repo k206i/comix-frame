@@ -1,4 +1,5 @@
-# comix-constructor
+# comics-constructor
+Сайт, с помощью которого можно создавать интерактивные истории.
 
 ## Project setup
 ```
@@ -19,6 +20,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
