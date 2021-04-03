@@ -1,3 +1,46 @@
+
+
+// Colors
+$color-gray-20: #353434; // #fff opacity
+$color-gray-50: #808080;
+$color-gray-80: #ccc;
+$color-gray-90: #e5e5e5;
+
+$color-orange-40: #c7370d;
+$color-orange-50: #ef3c02;
+
+$color-violet-20: #0e0e12;
+$color-violet-30: #252537;
+$color-violet-50: #8536c3;
+
 $color-black: #000;
 $color-white: #fff;
-$color-violet: #8536c3;
+$color-orange: $color-orange-50;
+$color-violet: $color-violet-50;
+
+
+// Z-indexes
+$z-index-layout: 100;
+$z-index-header: 200;
+$z-index-dropdown: 300;
+$z-index-overlay: 400;
+$z-index-popup: 500;
+$z-index-modal: 1000;
+
+// Fonts
+$font-ubuntu: 'Ubuntu', 'Helvetica Neue', sans-serif;
+
+// Transitions
+$default-transition-duration: .3s;
+$transition-color: color $default-transition-duration ease;
+
+// Defaults
+$default-background-color: $color-violet-20;
+$default-font-family: $font-ubuntu;
+$default-font-size: 16px; // 1rem
+$default-line-height: 1.2;
+$default-font-color: $color-gray-80;
+
+$default-hover-color-amount: 15%;
+
+
