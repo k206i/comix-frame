@@ -1,4 +1,4 @@
-
+// Desktop first
 
 // Colors
 $color-gray-20: #353434; // #fff opacity
@@ -19,6 +19,50 @@ $color-orange: $color-orange-50;
 $color-violet: $color-violet-50;
 
 
+// Sizes
+$size-header-height: 70px;
+
+// steps
+$size-design-step: 8px;
+$size-design-gap: 8px;
+// vertical
+$size-step-s: $size-design-step; // 8px
+$size-step: $size-design-step * 2; // 16px
+$size-step-l: $size-design-step * 3; // 24px
+$size-step-xl: $size-design-step * 4; // 32px
+$size-step-xxl: $size-design-step * 5; // 40px
+// horizontal
+$size-gap-s: $size-design-gap; // 8px
+$size-gap: $size-design-step * 2; // 16px
+$size-gap-l: $size-design-step * 3; // 24px
+$size-gap-xl: $size-design-step * 4; // 32px
+$size-gap-xxl: $size-design-step * 5; // 40px
+
+$size-mobile-side-indent: $size-gap-s; //8px
+
+// blocks
+$size-step-block-desktop: $size-step-xl; // 32px
+$size-step-block-notebook: $size-step-xl; // 32px
+$size-step-block-tablet: $size-step-l; // 24px
+$size-step-block-mobile: $size-step; // 16px
+
+// content
+// desktop
+$size-content-desktop: 1218px;
+// notebook
+$size-content-notebook: 940px;
+// tablet
+$size-content-tablet: 660px;
+
+
+// Break points
+$media-notebook: "max-width: 1380px";
+$media-tablet: "max-width: 980px";
+$media-mobile: "max-width: 760px";
+
+
+
+
 // Z-indexes
 $z-index-layout: 100;
 $z-index-header: 200;
@@ -32,7 +76,9 @@ $font-ubuntu: 'Ubuntu', 'Helvetica Neue', sans-serif;
 
 // Transitions
 $default-transition-duration: .3s;
+$transition-all: all $default-transition-duration ease;
 $transition-color: color $default-transition-duration ease;
+$transition-background: background $default-transition-duration ease;
 
 // Defaults
 $default-background-color: $color-violet-20;

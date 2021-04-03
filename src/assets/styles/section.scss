@@ -1,0 +1,21 @@
+.section {
+  width: $size-content-desktop;
+  margin: 0 auto $size-step-block-desktop;
+
+
+  // Media
+  @media( $media-notebook ) {
+    width: $size-content-notebook;
+    margin-bottom: $size-step-block-notebook;
+  }
+
+  @media( $media-tablet ) {
+    width: $size-content-tablet;
+    margin-bottom: $size-step-block-tablet;
+  }
+
+  @media( $media-mobile ) {
+    width: calc( 100% - #{ $size-mobile-side-indent });
+    margin-bottom: $size-step-block-mobile;
+  }
+}
