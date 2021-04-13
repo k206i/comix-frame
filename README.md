@@ -1,4 +1,4 @@
-# Moved to bitvbucket!
+# Moved to bitbucket!
 
 # comics-constructor
 Сайт, с помощью которого можно создавать интерактивные истории.
